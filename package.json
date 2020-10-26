@@ -1,0 +1,17 @@
+{
+  "name": "blog",
+  "version": "1.0.1",
+  "description": "2020年10月26日blog项目建立，目标每周至少一篇文章，坚持一年。",
+  "main": "index.js",
+  "repository": "https://github.com/guoshunfa/guoshunfa.git",
+  "author": "郭顺发 <13301203454@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  }
+}
